@@ -1,0 +1,116 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  /* adjust typography defaults */
+  body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: black;
+  color: white;
+  }
+  
+  h1{
+    font-family: verdana, arial, sans-serif;
+    color: red;
+  }
+  
+  button{
+    padding:10px;
+    border-radius: 20px;
+    
+  }
+  
+  #gameButtonArea > button {
+    width:120px;
+    height:120px;
+    margin:2px;
+  }
+  
+  #gameButtonArea{
+    margin-top: 50px
+    
+  }
+  #startBtn{
+    background-color: green;
+    color: black;
+    
+  }
+  
+  #stopBtn{
+    background-color: red;
+    
+  }
+  
+  #button1{
+    background-color:lightblue;
+  }
+  #button1:active, #button1.lit{
+    background: blue;
+  }
+  
+  #button2{
+    background-color:lightgreen;
+  }
+  #button2:active, #button2.lit{
+    background: green;
+  }
+  
+  
+  #button3{
+    background-color:pink;
+  }
+  #button3:active, #button3.lit{
+    background: lightpink;
+  }
+  
+  #button4{
+    background-color:darkmagenta;
+  }
+  #button4:active, #button4.lit{
+    background: purple;
+  }
+  
+  
+  #button5{
+    background-color:orange;
+  }
+  #button5:active, #button5.lit{
+    background: darkorange;
+  }
+  
+  
+  #button6{
+    background-color:lightyellow;
+  }
+  #button6:active, #button6.lit{
+    background: yellow;
+  }
+  
+  #button7{
+    background-color:violet;
+  }
+  #button7:active, #button7.lit{
+    background: magenta;
+  }
+  
+  
+  #button8{
+    background-color:lightcyan;
+  }
+  #button8:active, #button8.lit{
+    background: cyan;
+  }
+  
+  
+  .hidden {
+    display: none;
+  }
